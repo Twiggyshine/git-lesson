@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <button class="btn" data-path="one">Окно 1</button>
+    <!-- <button class="btn" data-path="two">Окно 2</button> -->
+    
+    <div class="modals">
+        <div class="modal-overlay">
+            <div class="modal modal--1" data-target="one">
+            <h2 class="modal__title">Report Pin</h2>
+            <wrapper class="modal__wrapper">
+            <div>
+                <input class="custom-radio" name="myRadio" type="radio" value="1">
+                <label for="myRadio">Spam</label>
+                <div class="modal__text">Misleading or repetitive posts</div>
+            </div>
+            <div>
+                <input class="custom-radio" name="myRadio" type="radio" value="2">
+                <label for="myRadio">Nudity, pornography or sexualized content</label>
+                <div class="modal__text">Sexually explicit content involving adults or nudity, non-nudity or intentional misuse involving minors</div>
+            </div>
+            <div>
+                <input class="custom-radio" name="myRadio" type="radio" value="3">
+                <label for="myRadio">Self-harm</label>
+                <div class="modal__text">Eating disorders, cutting, suicide</div>
+            </div>
+            <div>
+                <input class="custom-radio" name="myRadio" type="radio" value="4">
+                <label for="myRadio">Misinformation</label>
+                <div class="modal__text">Health, climate, voting misinformation or conspiracies</div>
+            </div>
+            <div>
+                <input class="custom-radio" name="myRadio" type="radio" value="5">
+                <label for="myRadio">Hateful activities</label>
+                <div class="modal__text">Prejudice, stereotypes, white supremacy, slurs</div>
+            </div>
+            <div>
+                <input class="custom-radio" name="myRadio" type="radio" value="6">
+                <label for="myRadio">Dangerous goods</label>
+                <div class="modal__text">Drugs, weapons, regulated products</div>
+            </div>
+            <div>
+                <input class="custom-radio" name="myRadio" type="radio" value="7">
+                <label for="myRadio">Harassment or criticism</label>
+                <div class="modal__text">Insults, threats, non-consensual nude images</div>
+            </div>
+            <div>
+                <input class="custom-radio" name="myRadio" type="radio" value="8">
+                <label for="myRadio">Graphic violence</label>
+                <div class="modal__text">Violent images or promotion of violence</div>
+            </div>
+            <div>
+                <input class="custom-radio" name="myRadio" type="radio" value="9">
+                <label for="myRadio">Privacy violation</label>
+                <div class="modal__text">Private photos, personal information</div>
+            </div>
+            <div>
+                <input class="custom-radio" name="myRadio" type="radio" value="9">
+                <label for="myRadio">My intellectual property</label>
+                <div class="modal__text">Copyright or trademark infringement</div>
+            </div>
+            </wrapper> 
+            <div class="modal__footer">
+                <button class="modal__send">Send</button>
+                <button class="modal__close">Cancel</button>
+            </div>    
+            </div>
+        </div>
+        </div>
+
+
+        <!-- <div class="modal modal--2" data-target="two">
+            Окно 2
+        </div> -->
+    
+    
+</body>
+</html>
+
